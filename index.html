@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TodoApp</title>
+</head>
+<body>
+    <section class="navbar-section">
+        <header>
+            <nav class="navbar">
+                <h1 class="navbar-head"><a href="#">TodoApp</a></h1>
+                <div class="input-area">
+                    <input type="text" placeholder="Search Task..." class="navbar-input">
+                    <div class="dark-light" id="btn-click">
+                        <img src="icons8-sun-50.png" alt="sun" class="sun">
+                        <img src="icons8-moon-symbol-30.png" alt="moon" class="moon">
+                    </div>  
+                </div>
+            </nav>
+        </header>
+    </section>
+    <section class="main-section">
+        <form action="">
+                <div class="main-text">  
+                    <p>Add Task</p>
+                </div>
+                <div class="main-input-btn">
+                    <input type="text" class="main-input">
+                    <button class="main-btn">Add</button>
+                    <div class="msg"></div>
+                </div>
+        </form>        
+        <div>
+            <ul class="main-ul" id="ul-id">
+                <li class="taskLi">nominal Insertion<button class="deletebtn">X</button></li>
+                <li class="taskLi">vehicle is supersonic<button class="deletebtn">X</button></li>
+                <li class="taskLi">stage separation confirm<button class="deletebtn">X</button></li>
+            </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
