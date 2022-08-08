@@ -106,30 +106,3 @@ function makeDark(e){
         disable();
     } 
 }
-
-
-
-// function makeDark(e){
-//     document.body.style.backgroundColor = "#202124";
-//     navSection.style.backgroundColor = "#303134";
-//     navSection.style.borderBottomColor = "#202124";
-//     navSection.style.boxShadow = "5px 0px 10px #000";
-//     document.querySelector(".navbar-input").style.backgroundColor = "#202124";
-//     document.querySelector(".main-input").style.backgroundColor = "#303134";
-//     document.querySelector(".main-input").style.color = "#fff";
-//     document.querySelector(".main-input").style.outline = "none";
-//     document.querySelector(".main-btn").style.backgroundColor = "#303134";
-//     document.querySelector(".main-btn").style.color = "#fff";
-//     document.querySelector("a").style.color = "#fff";
-//     document.querySelector(".main-text p").style.color = "#fff";
-//     document.querySelector(".sun").style.display = "none";
-//     document.querySelector(".moon").style.display = "inline";
-//     document.querySelector(".dark-light").style.backgroundColor = "#202124";
-//     document.querySelector(".navbar-input").style.outline = "none";
-//     document.querySelector(".navbar-input").style.color = "#fff";
-//     // document.querySelector(".taskLi").style.backgroundColor = "#303134";
-//     // document.querySelector(".taskLi").style.color = "#fff";
-//     // document.querySelector(".taskLi").style.boxShadow = "5px 0px 10px #000";
-//     // const collect = document.getElementById("ul-id").children;
-//     // collect.style.backgroundColor = "#202124";
-// }
